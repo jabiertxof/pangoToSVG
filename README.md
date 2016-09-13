@@ -8,8 +8,10 @@ Use as helper to other code like [gimpToSVG](https://github.com/jabiertxof/gimpT
 Convert pango text to SVG
 
 ##Usage
+Create a object:
 > svg = PangoToSVG(pango_markup)
-Create a object, pango_markup is a string like:"<markup>...</markup>"
+
+pango_markup is a string like:"&lt;markup&gt;...&lt;/markup&gt;"<br />
 Container inherits to childs if not full defined so we need to recreate container properties:
 - **svg.setContainerLineHeight(10)** Line Height
 - **svg.setContainerLetterSpacing(1)** Letter Spacing
@@ -38,5 +40,5 @@ Know issues in export as text:
 ##Credits
 ```
 Copyright 2015 Jabiertxo Arraiza (jabiertxof)
-Special thanks to Erdem Guven Chris Mohler an Gez, and people helping in internet.
+Special thanks to Erdem Guven Chris Mohler and Gez.
 ```
