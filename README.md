@@ -1,5 +1,5 @@
 # pangoToSVG
-Version: 0.1.1, License: GPL v3+
+Version: 0.1.2, License: GPL v3+
 
 ##No Install
 Use as helper to other code like [gimpToSVG](https://github.com/jabiertxof/gimpToSVG)
@@ -16,6 +16,9 @@ Container inherits to childs if not full defined so we need to recreate containe
 - **svg.setContainerLineHeight(10)** Line Height
 - **svg.setContainerLetterSpacing(1)** Letter Spacing
 - **svg.setContainerDirection("ltr")** Text Direction
+- **svg.setContainerIndent(0)** Indent
+- **svg.setContainerWidth(120)** Width
+- **svg.setContainerHeight(120)** Height
 - **svg.setContainerOffsetX(10)** Offset X
 - **svg.setContainerOffsetY(100)** Offset Y
 - **svg.setContainerFont(pango.FontDescription("serif"))** Font description
@@ -35,7 +38,8 @@ Know issues in export as text:
 
 ##Changelog
 - 0.1.0 Initial release
--0.1.1 Remove comments and move to .md
+- 0.1.1 Remove comments and move to .md
+- 0.1.2 Added a Gimp plugin to show pango info on current Gimp layer
 
 ##Credits
 ```
