@@ -1,7 +1,7 @@
 # pangoToSVG
 Version: 0.1.0, License: GPL v3+
-##Install
-To use as helper to other code like [gimpToSVG](https://github.com/jabiertxof/gimpToSVG)
+##No Install
+Use as helper to other code like [gimpToSVG](https://github.com/jabiertxof/gimpToSVG)
 ##Objetive
 Convert a pango definition into a SVG.
 ##Know issues
